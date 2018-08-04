@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="DeltaX Registration QA Automation Testing">
+
+<listeners>
+<listener class-name="com.deltaX.qa.Analyzer.CustomListener"></listener>
+</listeners>
+
+  <test name="DeltaX TestCases">
+    <classes>
+      <class name="com.deltaX.qa.atcs.RegistrationPageTest.java"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
